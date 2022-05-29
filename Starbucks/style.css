@@ -1,0 +1,192 @@
+body {
+    margin: 0; 
+    /* font-family: 'Roboto', sans-serif;  */
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5em;
+    margin-right: 1.5em;
+    margin-left: 1.5em;
+    font-weight: 500;
+    margin-bottom: 1.1em;
+}
+
+.half-nav {
+    display: flex; 
+    
+}
+
+.second-half {
+    display: flex; 
+    /* justify-content: space-around; */
+    gap: 15px;
+}
+
+.bimg {
+    height: 75px;
+    width: 75px;
+    cursor: pointer;
+}
+
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding-left: 15px;
+    text-transform: uppercase;
+     gap: 15px;
+     letter-spacing: 2px;
+}
+
+li {
+    text-align: center;
+    padding-top: 12px;
+}
+
+li:hover {
+    border-bottom: 5px solid green;
+    cursor: pointer;
+}
+
+.find {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.Sign {
+    border-color: black;
+    border-radius: 30px;
+    background-color: white;
+    cursor: pointer;
+    width: 125px;
+    height: 50px;
+    margin-top: 15px;
+}
+
+.Join {
+    border-color: black;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    width: 125px;
+    height: 50px;
+    margin-top: 15px;
+}
+
+section {
+    margin-top: 10px;
+}
+
+.rewards {
+    background-color: rgb(16, 43, 16);
+    border: 2px solid rgb(11, 29, 11);
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 110px;
+    gap: 10px;
+    color: white;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+.main {
+    height: 65vh;
+    background-color: rgb(16, 43, 16);
+}
+
+.text {
+   color: white;
+   font-size: 32px;
+   padding-top: 9%;
+   padding-left: 5%;
+   line-height: 50px;
+   font-weight: 600;
+}
+
+.text2 {
+    color: white;
+    padding-top: 2%;
+    padding-left: 5%;
+    font-weight: 300;
+    font-size: 15px;
+ }
+
+ .sbtn {
+     border: none;
+     border-radius: 30px;
+    background-color: rgb(24, 180, 19);
+    color: white;
+    cursor: pointer;
+    width: 125px;
+    height: 50px;
+    margin-top: 65px;
+    margin-left: 5%;
+ }
+
+ .below-btn {
+    margin-left: 5%;
+    margin-top: 35px;
+    color: white;
+ }
+
+.section-2 {
+    height: 500vh;
+}
+
+ .text-a {
+     text-align: center;
+     margin-top: 20px;
+     font-size: 22px;
+     font-weight: 600;
+ }
+
+ .text-b {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    
+}
+
+/* .card {
+    text-align: center;
+}
+
+.s-card {
+    width: 50px;
+} */
+
+.sub-1 {
+    text-align: center;
+}
+
+.one {
+   
+    color: green;
+    border-radius: 50%;
+    text-align: center;
+    padding: 10px;
+}
+.create {
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.tex {
+    margin-top: 5px;
+    width: 200px;
+}
+
+.lorem {
+    color: white;
+}
